@@ -9,9 +9,9 @@ An auto-configured library for switchblade-core providing an embedded Jetty inst
 - Example endpoint:
 
   ```java
-  @Component
-  @Endpoint(path="/root")
-  public class TestEndpoint {
+	@Component
+	@Endpoint(path="/root")
+	public class TestEndpoint {
 		@Endpoint(path="/:id")
 		public String id(String id) {
 			return "found " + id;
