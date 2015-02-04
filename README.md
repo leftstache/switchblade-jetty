@@ -26,6 +26,7 @@ An auto-configured library for switchblade-core providing an embedded Jetty inst
 TODO
 ----
 
+ - Tests
  - Currently path variables can only be strings. `ServletRequest` and `ServletResponse` can also be method parameters. Need to support primitives by default and allow applications to add their own handlers for various types.
  - Headers are not set, content types cannot be specified, request methods cannot be specified, etc.
  - Should support writing any response object as json. Allow the application to specify response handlers
